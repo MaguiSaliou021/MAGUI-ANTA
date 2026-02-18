@@ -1,0 +1,416 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>BeautyGlow - Institut de Beauté Luxe</title>
+
+<!-- Bootstrap CSS -->
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+<!-- Bootstrap Icons -->
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.css">
+<!-- Google Font -->
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet">
+<!-- Custom CSS -->
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<!-- NAVBAR -->
+<nav class="navbar navbar-expand-lg fixed-top navbar-dark">
+<div class="container">
+<a class="navbar-brand fw-bold" href="#">Beauty <span>Glow</span></a>
+<button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+<span class="navbar-toggler-icon"></span>
+</button>
+<div class="collapse navbar-collapse" id="navbarNav">
+<ul class="navbar-nav ms-auto">
+<li class="nav-item"><a class="nav-link" href="#services">Services</a></li>
+<li class="nav-item"><a class="nav-link" href="#packs">Packs</a></li>
+<li class="nav-item"><a class="nav-link" href="#reservation">Réserver</a></li>
+<li class="nav-item"><a class="nav-link" href="#contact">Contact</a></li>
+</ul>
+</div>
+</div>
+</nav>
+
+<!-- HERO -->
+<section class="hero d-flex align-items-center text-center text-white">
+<div class="container">
+<h1 class="display-4 fw-bold">L’Excellence de la Beauté</h1>
+<p class="lead">Institut de beauté luxe à Saint-Louis ✨</p>
+<a href="#reservation" class="btn btn-warning btn-lg mt-3">Réserver maintenant</a>
+</div>
+</section>
+
+<!-- SERVICES -->
+<section id="services" class="fade-in">
+<div class="container text-center">
+<h2 class="mb-5">Nos Services Premium</h2>
+<div class="row g-4">
+
+<div class="col-md-4">
+<div class="card shadow h-100">
+<div class="card-body">
+<i class="bi bi-stars display-5 text-warning mb-3"></i>
+<h5>Soin du visage</h5>
+<p>Nettoyage profond, hydratation et anti-âge.</p>
+<p class="fw-bold">25 000 FCFA</p>
+</div>
+</div>
+</div>
+
+<div class="col-md-4">
+<div class="card shadow h-100">
+<div class="card-body">
+<i class="bi bi-hand-index-thumb display-5 text-warning mb-3"></i>
+<h5>Manucure & Pédicure</h5>
+<p>Pose vernis simple ou semi-permanent.</p>
+<p class="fw-bold">15 000 FCFA</p>
+</div>
+</div>
+</div>
+
+<div class="col-md-4">
+<div class="card shadow h-100">
+<div class="card-body">
+<i class="bi bi-brush display-5 text-warning mb-3"></i>
+<h5>Maquillage Pro</h5>
+<p>Maquillage mariage & événements.</p>
+<p class="fw-bold">30 000 FCFA</p>
+</div>
+</div>
+</div>
+
+<div class="col-md-4">
+<div class="card shadow h-100">
+<div class="card-body">
+<i class="bi bi-eye display-5 text-warning mb-3"></i>
+<h5>Extensions de cils</h5>
+<p>Volume russe & cil à cil.</p>
+<p class="fw-bold">20 000 FCFA</p>
+</div>
+</div>
+</div>
+
+<div class="col-md-4">
+<div class="card shadow h-100">
+<div class="card-body">
+<i class="bi bi-scissors display-5 text-warning mb-3"></i>
+<h5>Coiffure & Brushing</h5>
+<p>Brushing, tresses, coiffure mariage.</p>
+<p class="fw-bold">À partir de 10 000 FCFA</p>
+</div>
+</div>
+</div>
+
+<div class="col-md-4">
+<div class="card shadow h-100">
+<div class="card-body">
+<i class="bi bi-heart-pulse display-5 text-warning mb-3"></i>
+<h5>Massage Relaxant</h5>
+<p>Détente complète corps & esprit.</p>
+<p class="fw-bold">35 000 FCFA</p>
+</div>
+</div>
+</div>
+
+<div class="col-md-4">
+<div class="card shadow h-100">
+<div class="card-body">
+<i class="bi bi-flower1 display-5 text-warning mb-3"></i>
+<h5>Épilation</h5>
+<p>Cire chaude & complète.</p>
+<p class="fw-bold">À partir de 5 000 FCFA</p>
+</div>
+</div>
+</div>
+
+<div class="col-md-4">
+<div class="card shadow h-100 position-relative">
+<div class="card-body">
+<i class="bi bi-gem display-5 text-warning mb-3"></i>
+<h5>Forfait Mariée Luxe</h5>
+<p>Maquillage + coiffure + soins visage.</p>
+<p class="fw-bold ">100 000 FCFA</p>
+</div>
+</div>
+</div>
+
+</div>
+</div>
+</section>
+
+<!-- PACKS -->
+<section id="packs" class="bg-light fade-in">
+<div class="container text-center">
+<h2 class="mb-5">Nos Packs Beauté</h2>
+<div class="row g-4">
+
+<!-- Pack 1 -->
+<div class="col-md-4">
+<div class="card shadow h-100">
+<img src="p1.jpeg" class="card-img-top">
+<div class="card-body">
+<h5>Pack Glow Express</h5>
+<p>Soin visage + Manucure</p>
+<p class="fw-bold text-danger">35 000 FCFA</p>
+<button class="btn btn-warning w-100" onclick="addToCart('Pack Glow Express',35000,this)">Acheter 💳</button>
+<div class="mt-3">⭐⭐⭐⭐⭐ <p class="small">“Service incroyable !” – Aïssatou</p></div>
+</div>
+</div>
+</div>
+
+<!-- Pack 2 -->
+<div class="col-md-4">
+<div class="card shadow h-100 position-relative">
+<img src="p2.jpeg" class="card-img-top">
+<div class="card-body">
+<h5>Pack Mariée Luxe</h5>
+<p>Maquillage + Coiffure + Soin visage</p>
+<p class="fw-bold text-danger">100 000 FCFA</p>
+<button class="btn btn-warning w-100" onclick="addToCart('Pack Mariée Luxe',100000,this)">Acheter 💳</button>
+<div class="mt-3">⭐⭐⭐⭐⭐ <p class="small">“Parfait pour le mariage !” – Fatou</p></div>
+</div>
+</div>
+</div>
+
+<!-- Pack 3 -->
+<div class="col-md-4">
+<div class="card shadow h-100">
+<img src="p3.jpeg" class="card-img-top">
+<div class="card-body">
+<h5>Pack Relax Premium</h5>
+<p>Massage + Soin corps + Épilation</p>
+<p class="fw-bold text-danger">70 000 FCFA</p>
+<button class="btn btn-warning w-100" onclick="addToCart('Pack Relax Premium',70000,this)">Acheter 💳</button>
+<div class="mt-3">⭐⭐⭐⭐⭐ <p class="small">“Détente incroyable !” – Mariama</p></div>
+</div>
+</div>
+</div>
+
+<!-- Pack 4 -->
+<div class="col-md-4">
+<div class="card shadow h-100">
+<img src="p4.jpeg" class="card-img-top">
+<div class="card-body">
+<h5>Pack Ongles Luxe</h5>
+<p>Manucure + Pédicure + Vernis semi-permanent</p>
+<p class="fw-bold text-danger">40 000 FCFA</p>
+<button class="btn btn-warning w-100" onclick="addToCart('Pack Ongles Luxe',40000,this)">Acheter 💳</button>
+<div class="mt-3">⭐⭐⭐⭐⭐ <p class="small">“Je me sens féminine et raffinée!” – Tacko Mbaye</p></div>
+
+</div>
+</div>
+</div>
+
+<!-- Pack 5 -->
+<div class="col-md-4">
+<div class="card shadow h-100">
+<img src="p5.jpeg" class="card-img-top">
+<div class="card-body">
+<h5>Pack Spa Relax</h5>
+<p>Massage complet + Soin visage relaxant</p>
+<p class="fw-bold text-danger">60 000 FCFA</p>
+<button class="btn btn-warning w-100" onclick="addToCart('Pack Spa Relax',60000,this)">Acheter 💳</button>
+<div class="mt-3">⭐⭐⭐⭐⭐ <p class="small">“Mon visage est luminieux et revitalisé !” – Omar</p></div>
+
+</div>
+</div>
+</div>
+
+<!-- Pack 6 -->
+<div class="col-md-4">
+<div class="card shadow h-100  position-relative">
+<img src="p6.jpeg" class="card-img-top">
+<div class="card-body">
+<h5>Pack Mariée Premium</h5>
+<p>Maquillage + Coiffure + Soins + Massage</p>
+<p class="fw-bold text-danger">120 000 FCFA</p>
+<button class="btn btn-warning w-100" onclick="addToCart('Pack Mariée Premium',120000,this)">Acheter 💳</button>
+<div class="mt-3">⭐⭐⭐⭐⭐ <p class="small">“je rayonne de beauté et de bonheur !” – Madame Thiam</p></div>
+
+</div>
+</div>
+</div>
+
+</div>
+</div>
+</section>
+
+<!-- RESERVATION -->
+<section id="reservation" class="bg-light fade-in text-center">
+<div class="container">
+<h2 class="mb-4">Réservez votre séance</h2>
+<div class="row justify-content-center">
+<div class="col-md-6">
+<form class="p-4 shadow rounded bg-white">
+<div class="mb-3"><input type="text" class="form-control" placeholder="Nom complet" required></div>
+<div class="mb-3"><input type="date" class="form-control" required></div>
+<div class="mb-3"><input type="time" class="form-control" required></div>
+<div class="mb-3">
+<select class="form-select">
+<option>Soin du visage - 25 000 FCFA</option>
+<option>Manucure - 15 000 FCFA</option>
+<option>Maquillage - 30 000 FCFA</option>
+</select>
+</div>
+<button type="button" onclick="payer()" class="btn btn-warning w-100">💳 Payer et Réserver</button>
+</form>
+</div>
+</div>
+</div>
+</section>
+
+<!-- PANIER -->
+<section id="panier" class="bg-light py-5 fade-in">
+<div class="container">
+<h2 class="text-center mb-4">🛒 Votre Panier</h2>
+<div class="row justify-content-center">
+<div class="col-md-8">
+<ul id="cart-items" class="list-group mb-3"></ul>
+<h4 class="text-end">Total : <span id="total">0</span> FCFA</h4>
+<div class="input-group mt-3">
+<input type="text" id="promoCode" class="form-control" placeholder="Code promo">
+<button class="btn btn-dark" onclick="applyPromo()">Appliquer</button>
+</div>
+<button class="btn btn-warning w-100 mt-3" onclick="checkout()">💳 Payer maintenant</button>
+</div>
+</div>
+</div>
+</section>
+
+<!-- CONTACT -->
+<section id="contact" class="fade-in">
+<div class="container">
+<h2 class="text-center mb-5">Contactez-nous</h2>
+<div class="row g-4">
+
+<div class="col-md-5">
+<div class="contact-info p-4 shadow rounded bg-white h-100">
+<h5>Informations</h5>
+<p><i class="bi bi-geo-alt-fill text-warning"></i> Saint-Louis, Sénégal</p>
+<p><i class="bi bi-telephone-fill text-warning"></i> +221 78 504 51 83</p>
+<p><i class="bi bi-envelope-fill text-warning"></i> contact beautyglow@gmail.com</p>
+<hr>
+<h6><i class="bi bi-clock-fill text-warning"></i> Horaires</h6>
+<p>Lundi - Samedi : 9h - 19h</p>
+<p>Dimanche : Fermé</p>
+<a href="https://wa.me/221770000000" target="_blank" class="btn btn-success w-100 mt-3"><i class="bi bi-whatsapp"></i> WhatsApp</a>
+</div>
+</div>
+
+<div class="col-md-7">
+<div class="shadow rounded overflow-hidden">
+<div class="ratio ratio-4x3">
+    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d122716.05008025024!2d-16.540701949575656!3d16.01993983211128!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xe955655141ee805%3A0xe91d1d12f36a7e64!2sSaint-Louis!5e0!3m2!1sfr!2ssn!4v1771426922935!5m2!1sfr!2ssn" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+</div>
+</div>
+</div>
+
+</div>
+</div>
+</section>
+
+<!-- FOOTER -->
+<footer class="bg-dark text-white pt-5 pb-3">
+<div class="container">
+<div class="row">
+<div class="col-md-3">
+<h5>BeautyGlow</h5>
+<p>Institut de beauté international haut de gamme.</p>
+</div>
+<div class="col-md-3">
+<h5>Navigation</h5>
+<ul class="list-unstyled">
+<li><a href="#services" class="text-white text-decoration-none">Services</a></li>
+<li><a href="#packs" class="text-white text-decoration-none">Packs</a></li>
+<li><a href="#reservation" class="text-white text-decoration-none">Réserver</a></li>
+<li><a href="#contact" class="text-white text-decoration-none">Contact</a></li>
+</ul>
+</div>
+<div class="col-md-3">
+<h5>Horaires</h5>
+<p>9h - 19h</p>
+<p>Fermé Dimanche</p>
+</div>
+<div class="col-md-3">
+<h5>Réseaux</h5>
+<i class="bi bi-facebook me-2"></i>
+<i class="bi bi-instagram me-2"></i>
+<i class="bi bi-whatsapp"></i>
+</div>
+</div>
+<hr>
+<div class="text-center">
+<p>© 2026 BeautyGlow - Tous droits réservés</p>
+</div>
+</div>
+</footer>
+
+<!-- SCRIPTS -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+
+<script>
+let cart = [];
+let total = 0;
+let discount = 0;
+
+function addToCart(name, price, btn){
+    btn.innerHTML = "Ajouté ✅";
+    btn.classList.add("btn-success");
+    setTimeout(()=>{
+        btn.innerHTML = "Acheter 💳";
+        btn.classList.remove("btn-success");
+    },1500);
+    cart.push({name, price});
+    total += price;
+    updateCart();
+}
+
+function updateCart(){
+    let cartItems = document.getElementById("cart-items");
+    cartItems.innerHTML = "";
+    cart.forEach((item,index)=>{
+        cartItems.innerHTML += `<li class="list-group-item d-flex justify-content-between">
+        ${item.name} <span>${item.price} FCFA <button class="btn btn-sm btn-danger" onclick="removeItem(${index})">X</button></span>
+        </li>`;
+    });
+    document.getElementById("total").innerText = total - discount;
+}
+
+function removeItem(index){
+    total -= cart[index].price;
+    cart.splice(index,1);
+    updateCart();
+}
+
+function applyPromo(){
+    let code = document.getElementById("promoCode").value;
+    if(code==="BEAUTY10"){discount = total*0.10; alert("Code promo appliqué -10% 🎉");}
+    else{discount=0; alert("Code invalide");}
+    updateCart();
+}
+
+function checkout(){
+    if(cart.length===0){ alert("Votre panier est vide 🛒"); return;}
+    alert("Redirection vers paiement sécurisé 💳");
+    window.location.href="https://buy.stripe.com/test_123456789";
+}
+
+function payer(){checkout();}
+
+window.addEventListener("scroll",function(){
+document.querySelector(".navbar").classList.toggle("scrolled",window.scrollY>50);
+});
+
+const faders=document.querySelectorAll(".fade-in");
+const observer=new IntersectionObserver(entries=>{
+entries.forEach(entry=>{
+if(entry.isIntersecting){entry.target.classList.add("show");}
+});
+});
+faders.forEach(f=>observer.observe(f));
+</script>
+</body>
+</html>
